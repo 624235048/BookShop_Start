@@ -51,8 +51,8 @@ export default {
         }
 
     },
-    Delete(){
-        this.cart = [];
+    Delete(book){
+        this.cart.splice(book,1);
 
     },
     AddtoCart(book) {
